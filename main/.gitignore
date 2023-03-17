@@ -1,0 +1,110 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+#media
+media/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Distribution / packaging
+.Python
+venv/
+env/
+.env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+db.sqlite3t
+Pipfile
+
+# Files
+__pycache__
+*__pycache__   
+*.pyc
+
+# Python files
+overwood/config/development.py
+*development.py
+
+# Personal Token
+# Token expired, so I generated a new one
+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 -> abram
+
+
+db_NAME = 'overwood'
+db_USER = 'root'
+db_PASSWORD = '14ox7ZHp;X=0I65@U3u'
+db_HOST = "localhost"
+db_PORT = 3306
+
+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 -> emma
+
+sudo lsof -t -i tcp:8000 | xargs kill -9w
+lsof -t -i tcp:8000 | xargs kill -9
+    overwood
+    14ox7ZHp;X=0I65@U3u #login main
+
+   'NAME': 'u916154473_overwood_alpha',
+
+   'USER': 'u916154473_alpha',
+
+   'PASSWORD': "Overwood_alpha21#", 
+    
+   'HOST': "141.136.39.204",
+
+   presonal Token for py1o2v3w
+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
+@media (min-width: 1400px)
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1450px;
+}
+
+# Setting up Redis
+sudo apt update
+
+sudo apt install redis-server
+
+sudo nano /etc/redis/redis.conf
+
+#Next, find the line specifying the supervised directive. By default, this line is set to no. However, to manage Redis as a service, set the supervised directive to systemd (Ubuntu’s init system).
+
+# Save the changes and close the file.
+
+#Finally, restart the Redis service by running:
+
+sudo systemctl restart redis.service
+
+#Verify Redis Installation
+sudo systemctl status redis
+
+#Check Redis Connection
+redis-cli
+
+ping
+#The output should respond with:
+PONG
+
+.env
+*.env
+.env*
