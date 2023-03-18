@@ -5,6 +5,7 @@ from rest_framework import viewsets, status
 from rest_framework.views import APIVIEW
 from rest_framework.response import Response
 import random
+from .producer import publish
 
 # Create your views here.
 
@@ -15,6 +16,7 @@ class ProductViewSet(viewsets.ViewSet):
         products = Product.objects.all()
         serializer = ProductSerializer(products, many=True)
         serializer = ProductSerializer(products, many=True)
+        publish()
         return Response(serializer.data)
 
 
