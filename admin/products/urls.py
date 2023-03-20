@@ -11,7 +11,7 @@ urlpatterns = [
     path('products/<str:pk>/', ProductViewSet.as_view({
         'get': 'retrieve',
         'put': 'update',
-        'post': 'destroy',
+        'delete': 'destroy',
     })),
     path('users/', userApiView.as_view()),
 ]
