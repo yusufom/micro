@@ -2,20 +2,20 @@
 This project is a simple product app that showcases my extensive knowledge of microservices and Docker. The app allows an admin to add, view and manage products, and also includes a like feature for each product. The admin interface was built using Django, while the like functionality was built with Flask. The two microservices, admin (Django) and main (Flask), communicate with each other through RabbitMQ using the Pika library. The front-end was built using React and TypeScript.
 
 ## Features
-Simple product management system with admin interface
-Like feature for each product using Flask microservice
-Communication between Django and Flask microservices through RabbitMQ and Pika
-Modern and responsive React front-end
+- Simple product management system with admin interface
+- Like feature for each product using Flask microservice
+- Communication between Django and Flask microservices through RabbitMQ and Pika
+- Modern and responsive React front-end
 
 ## Technologies
-Python
-Django
-Flask
-RabbitMQ
-Pika
-React
-TypeScript
-Docker
+- Python
+- Django
+- Flask
+- RabbitMQ
+- Pika
+- React
+- TypeScript
+- Docker
 
 ## Getting Started
 To get started with the project, you'll need Docker installed on your local machine. Follow these steps to set up and run the app:
